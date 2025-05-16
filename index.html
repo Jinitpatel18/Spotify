@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left border  bg-black">
+            <img class="invert close" src="/svg/close.svg" alt="close-icone">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img class="invert" src="/svg/logo.svg" alt="logo"></div>
+                <ul>
+                    <li><img class="invert" src="/svg/home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="/svg/serch.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading flex">
+                    <h2>Your Library</h2>
+                    <img class="invert plues" src="/svg/add.svg" alt="add icon">
+                </div>
+                <div class="songlist">
+                    <ul></ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink" id=""><span
+                                data-encore-id="type">Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink" id=""><span
+                                data-encore-id="type">Safety &amp; Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink"
+                            id=""><span data-encore-id="type">Privacy Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/" data-encore-id="textLink"
+                            id=""><span data-encore-id="type">Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" data-encore-id="textLink"
+                            id=""><span data-encore-id="type">About Ads</span></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right border bg-grey m-1 rounded">
+            <div class="header flex">
+                <div class="nav">
+                    <div class="hamburgercont">
+                        <img class="invert hamburger" src="/svg/hamburger.svg" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="button">
+                    <a href="login&signup.html"><button>Signup</button></a>
+                    <a href="login&signup.html"><button>Log-in</button></a>
+                    <!-- <button>Login</button> -->
+                </div>
+            </div>
+            <div class="spotifycardlists">
+                <h2>Trending Songs</h2>
+                <div class="cardcontainer flex">
+                    <div class="card">
+                        <button class="play-button" aria-label="Play">
+                            <img src="/svg/PLAY.SVG" alt="play-button">
+                        </button>
+                        <img src="/card-image/card-1.jpeg" alt="card-image">
+                        <h3>Qatal</h3>
+                        <p>Guru Randhawa Sanjoy GillMachhrai</p>
+                    </div>
+                    <div class="card">
+                        <button class="play-button" aria-label="Play">
+                            <img src="/svg/PLAY.SVG" alt="play-button">
+                        </button>
+                        <img src="/card-image/card-2.jpeg" alt="card-image">
+                        <h3>supreme</h3>
+                        <p>Shubh</p>
+                    </div>
+                    <div class="card">
+                        <button class="play-button" aria-label="Play">
+                            <img src="/svg/PLAY.SVG" alt="play-button">
+                        </button>
+                        <img src="/card-image/card-3.jpeg" alt="card-image">
+                        <h3>MAUNA LOA</h3>
+                        <p>vedan,AZWIN</p>
+                    </div>
+                    <div class="card">
+                        <button class="play-button" aria-label="Play">
+                            <img src="/svg/PLAY.SVG" alt="play-button">
+                        </button>
+                        <img src="/card-image/card-4.jpeg" alt="card-image">
+                        <h3>Galiyon ke ghalibe</h3>
+                        <p>Badsah,Hiten</p>
+                    </div>
+                    <div class="card">
+                        <button class="play-button" aria-label="Play">
+                            <img src="/svg/PLAY.SVG" alt="play-button">
+                        </button>
+                        <img src="/card-image/card-5.jpeg" alt="card-image">
+                        <h3>Nee Singam Dhan</h3>
+                        <p>A.R.Rehman, Sid Shriram</p>
+                    </div>
+                    <div class="card">
+                        <button class="play-button" aria-label="Play">
+                            <img src="/svg/PLAY.SVG" alt="play-button">
+                        </button>
+                        <img src="/card-image/card-6.jpeg" alt="card-image">
+                        <h3>Kanmanipoove(From"Thudram")</h3>
+                        <p>Jack Bejoy,M.G.Shreekumar</p>
+                    </div>
+                    <div class="card">
+                        <button class="play-button" aria-label="Play">
+                            <img src="/svg/PLAY.SVG" alt="play-button">
+                        </button>
+                        <img src="/card-image/card-7.jpeg" alt="card-image">
+                        <h3>Old Phone</h3>
+                        <p>Ed Sheeran</p>
+                    </div>
+                    <div class="card">
+                        <button class="play-button" aria-label="Play">
+                            <img src="/svg/PLAY.SVG" alt="play-button">
+                        </button>
+                        <img src="/card-image/card-8.jpeg" alt="card-image">
+                        <h3>Priceless</h3>
+                        <p>Maroon 5,Lisa</p>
+                    </div>
+                    <div class="card">
+                        <button class="play-button" aria-label="Play">
+                            <img src="/svg/PLAY.SVG" alt="play-button">
+                        </button>
+                        <img src="/card-image/card-9.jpeg" alt="card-image">
+                        <h3>Kanima(From "Retro")</h3>
+                        <p>Santosh Narayanan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Playbar">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="songplaybar">
+                    <div class="songinfo">
+                    </div>
+                    <div class="playbutton">
+                        <img id="previous" src="/svg/prevsong.svg" alt="">
+                        <img id="play" src="/svg/play2.svg" alt="">
+                        <img id="next" src="/svg/nextsong.svg" alt="">
+                    </div>
+                    <div class="timevol flex">
+                        <div class="songtime">
+                        </div>
+                        <div class="volume">
+                            <img src="/svg/volume.svg" alt="">
+                        </div>
+                        <input type="range" name="volume" id="">
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
